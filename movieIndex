@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>QUIZ</title>
+</head>
+
+<body>
+    <!-- top section -->
+<div class="intro py-3 bg-white text-center">
+    <div class="container">
+        <h2 class="text-primary display-3 my-4">MOVIE QUIZ</h2>
+    </div>
+</div>
+
+<!-- result section -->
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>You scored <span class="text-primary display-4 py-3">0%</span></p>
+    </div>
+</div>
+
+
+
+<!-- quiz section -->
+<div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white"> Let get started...</h2>
+        <form class="quiz-form text-light">
+            <div class="my-5">
+                <p class="lead font-weight-normal">1. Who played Mrs. Robinson in The Graduate?</p>
+            
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label class="form-check-label">Daniella stone</label>
+                </div>
+        
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B">
+                    <label class="form-check-label">Anne Bancroft</label>
+                </div>
+
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">2. What was the first feature-length animated movie ever released??</p>
+                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" checked>
+                <label class="form-check-label">Cinderella</label>
+                </div>
+            
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B">
+                <label class="form-check-label">Snow White and the Seven Dwarfs</label>
+                </div>
+    
+    
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">3. What flavor of Pop Tarts does Buddy the Elf use in his spaghetti in Elf? </p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="A" checked>
+                <label class="form-check-label">Vanilla</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="B">
+                <label class="form-check-label">Chocolate</label>
+                </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">4.Who is Peter Parker?</p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" checked>
+                <label class="form-check-label">Batman</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B">
+                <label class="form-check-label">Spider man</label>
+                </div>
+
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">5. Term for the Nigerian film industry</p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="A" checked>
+                <label class="form-check-label">Bollywood</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="B">
+                <label class="form-check-label">Nollywood</label>
+                </div>
+
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">6. Which Nollywood Movie did Geneieve and Omotala act together</p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q6" value="A" checked>
+                <label class="form-check-label">Prophecy</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q6" value="B">
+                <label class="form-check-label">Blood Sisters</label>
+                </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">7. Which of the Nigerian actor have the highest number of memes</p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q7" value="A" checked>
+                <label class="form-check-label">Ali</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q7" value="B">
+                <label class="form-check-label">Osita Iheme</label>
+                </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">8. Which of this is a place to see movies</p>
+                                
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q8" value="A" checked>
+                <label class="form-check-label">Shrine</label>
+                </div>
+                                        
+                <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q8" value="B">
+                <label class="form-check-label">Cinemas</label>
+                </div>     
+                
+        
+                <div class="my-5">
+                    <p class="lead font-weight-normal">9. What is the name of Adesua Etomi in King of boys</p>
+                                    
+                    <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="A" checked>
+                    <label class="form-check-label">Kemi Salami</label>
+                    </div>
+                                            
+                    <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="B">
+                    <label class="form-check-label">Amaka</label>
+                    </div>  
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">10. What is the name of Titi Kuti in King of boys</p>
+                                    
+                    <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="A" checked>
+                    <label class="form-check-label">Ade Tiger</label>
+                    </div>
+                                            
+                    <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="B">
+                    <label class="form-check-label">Adde Tiger</label>
+                    </div>  
+
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+
+        </form>
+        
+
+    </div>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
